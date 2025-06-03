@@ -1,3 +1,12 @@
+## ⚙️ Setup Instructions
+Follow these steps to get started with the project:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MatiGrinberg/FED_minutes_sentiment.git
+   cd FED_minutes_sentiment
+2. Have Python 12 (not 13) and install the **requirements.txt**
+3. Create a .env file in the root directory of the project, and add your OpenAI API key (as **OPENAI_API_KEY**)
+
 # Goal
 This notebook analyzes the sentiment extracted from FOMC meeting minutes and compares it to bond market reactions using a combination of machine learning and large language models (LLMs). Specifically, we use a pretrained sentiment classification model from Hugging Face (ProsusAI/finbert) to quantify the tone of central bank communications. While this model is not an LLM, it is a machine learning model fine-tuned for financial sentiment analysis. The results are then evaluated against U.S. 10-year Treasury yield changes. For a qualitative assessment, a RAG model is used to create a Chatbot/IR.
 # Why?
